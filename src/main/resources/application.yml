@@ -1,0 +1,15 @@
+server:
+    port: 5000
+
+spring:
+    mail:
+        host: smtp.gmail.com
+        port: 587
+        username: ilyes.poste7@gmail.com
+        password: Milan-2007
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    starttls:
+                        enable: true
