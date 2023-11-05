@@ -5,11 +5,13 @@ spring:
     mail:
         host: smtp.gmail.com
         port: 587
-        username: ilyes.poste7@gmail.com
-        password: Milan-2007
+        username: ilyes.bourouba7@gmail.com
+        password: ltrq ykku eppa gfbm
         properties:
             mail:
                 smtp:
+                    ssl:
+                        trust: smtp.gmail.com
                     auth: true
                     starttls:
                         enable: true
