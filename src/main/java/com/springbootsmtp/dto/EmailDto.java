@@ -2,6 +2,7 @@ package com.springbootsmtp.dto;
 
 import com.springbootsmtp.model.EmailEntity;
 import com.springbootsmtp.service.EmailService;
+import com.springbootsmtp.service.MailService;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;
@@ -29,15 +30,13 @@ public class EmailDto implements EmailService {
 
         try {
             LOGGER.info("Preparing email ...");
-            SimpleMailMessage mailMessage = new SimpleMailMessage();
-
-            mailMessage.setFrom(sender);
-            mailMessage.setTo(emailEntity.getRecipient());
-            mailMessage.setText(emailEntity.getMsgBody());
-            mailMessage.setSubject(emailEntity.getSubject());
+            MailService mail = new MailService(javaMailSender);
+            String htmlContent = mail.createEmailHtmlContent();
 
             LOGGER.info("Sending email ...");
-            javaMailSender.send(mailMessage);
+
+            mail.sendHtmlEmail(emailEntity.getRecipient(), emailEntity.getSubject(), htmlContent);
+
             LOGGER.info("Email sent successfully!");
             return "Mail sent Successfully.";
         } catch (Exception e) {
