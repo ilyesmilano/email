@@ -117,7 +117,7 @@ public class MailService {
                 +
                 "                <tbody>" +
                 "                    <tr>" +
-                "                        <td style=\"border-bottom:#333957 solid 5px;direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;\">"
+                "                        <td style=\"border-bottom:#00008F solid 5px;direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;\">"
                 +
                 "" +
                 "                        </td>" +
@@ -155,7 +155,7 @@ public class MailService {
                 "                                                    <tr>" +
                 "                                                        <td style=\"width:64px;\">" +
                 "" +
-                "                                                            <img height=\"auto\" src=\"https://i.imgur.com/KO1vcE9.png\" style=\"border:0;display:block;outline:none;text-decoration:none;width:100%;\" width=\"64\" />"
+                "                                                            <img height=\"auto\" src=\"https://www.axa.dz/image/layout_set_logo?img_id=118576&t=1699164221451\" style=\"border:0;display:block;outline:none;text-decoration:none;width:100%;\" width=\"64\" />"
                 +
                 "" +
                 "                                                        </td>" +
@@ -172,7 +172,7 @@ public class MailService {
                 "" +
                 "                                            <div style=\"font-family:'Helvetica Neue',Arial,sans-serif;font-size:28px;font-weight:bold;line-height:1;text-align:center;color:#555;\">"
                 +
-                "                                                Welcome to {{Product}}" +
+                "                                                SAGA Dommage" +
                 "                                            </div>" +
                 "" +
                 "                                        </td>" +
@@ -199,11 +199,11 @@ public class MailService {
                 "                                            <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"border-collapse:separate;line-height:100%;\">"
                 +
                 "                                                <tr>" +
-                "                                                    <td align=\"center\" bgcolor=\"#2F67F6\" role=\"presentation\" style=\"border:none;border-radius:3px;color:#ffffff;cursor:auto;padding:15px 25px;\" valign=\"middle\">"
+                "                                                    <td align=\"center\" bgcolor=\"##00008f\" role=\"presentation\" style=\"border:none;border-radius:3px;color:#ffffff;cursor:auto;padding:15px 25px;\" valign=\"middle\">"
                 +
                 "                                                        <p style=\"background:#2F67F6;color:#ffffff;font-family:'Helvetica Neue',Arial,sans-serif;font-size:15px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;\">"
                 +
-                "                                                            Login to Your Account" +
+                "                                                            Link" +
                 "                                                        </p>" +
                 "                                                    </td>" +
                 "                                                </tr>" +
